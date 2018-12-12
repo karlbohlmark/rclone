@@ -129,6 +129,9 @@ func init() {
 				Value: "eu-central-1",
 				Help:  "EU (Frankfurt) Region\nNeeds location constraint eu-central-1.",
 			}, {
+				Value: "eu-north-1",
+				Help:  "EU (Stockholm) Region\nNeeds location constraint eu-north-1.",
+			}, {
 				Value: "ap-southeast-1",
 				Help:  "Asia Pacific (Singapore) Region\nNeeds location constraint ap-southeast-1.",
 			}, {
@@ -323,6 +326,9 @@ func init() {
 			}, {
 				Value: "eu-west-2",
 				Help:  "EU (London) Region.",
+			}, {
+				Value: "eu-north-1",
+				Help:  "EU (Stockholm) Region.",
 			}, {
 				Value: "EU",
 				Help:  "EU Region.",

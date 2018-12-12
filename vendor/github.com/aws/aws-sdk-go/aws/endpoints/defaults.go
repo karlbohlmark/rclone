@@ -25,6 +25,7 @@ const (
 	EuWest1RegionID      = "eu-west-1"      // EU (Ireland).
 	EuWest2RegionID      = "eu-west-2"      // EU (London).
 	EuWest3RegionID      = "eu-west-3"      // EU (Paris).
+	EuNorth1RegionID     = "eu-north-1"     // EU (Stockholm).
 	SaEast1RegionID      = "sa-east-1"      // South America (Sao Paulo).
 	UsEast1RegionID      = "us-east-1"      // US East (N. Virginia).
 	UsEast2RegionID      = "us-east-2"      // US East (Ohio).
@@ -254,6 +255,9 @@ var awsPartition = partition{
 		},
 		"eu-west-3": region{
 			Description: "EU (Paris)",
+		},
+		"eu-north-1": region{
+			Description: "EU (Stockholm)",
 		},
 		"sa-east-1": region{
 			Description: "South America (Sao Paulo)",
@@ -2045,6 +2049,7 @@ var awsPartition = partition{
 				},
 				"eu-west-2": endpoint{},
 				"eu-west-3": endpoint{},
+				"eu-north-1": endpoint{},
 				"s3-external-1": endpoint{
 					Hostname:          "s3-external-1.amazonaws.com",
 					SignatureVersions: []string{"s3", "s3v4"},
